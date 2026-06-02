@@ -38,7 +38,7 @@ export default function Navbar() {
     }, []);
     return (
         <nav className={`  border border-white/20 rounded-full p-2 m-auto md:w-[50%] w-full sticky top-10 inset-x-0 z-50 duration-500 ${isSticky ? "bg-white/20 backdrop-blur-xl " : "bg-gray-300"}`} data-aos="flip-up" data-aos-duration="600">
-            <ul className="flex justify-evenly gap-5 font-body items-center transition-all duration-300 md:text-xl">
+            <ul className="flex justify-evenly gap-3 font-body items-center transition-all duration-300 md:text-xl">
                 <li className="w-full">
                     <a href="#home" className={`block text-center rounded-full p-3 duration-300 ${activeSection === "home" ? "bg-primary text-white font-bold" : "text-primary hover:font-bold hover:bg-white/70"}`}>
                         Home
