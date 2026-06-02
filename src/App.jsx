@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Footer from './components/Footer';
-import Hero from './components/hero';
-import Navbar from './components/navbar';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 import Home from './sections/Home';
 import Service from './sections/Service';
 import AOS from "aos";

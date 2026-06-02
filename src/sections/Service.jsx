@@ -1,4 +1,4 @@
-import Card from "../components/card";
+import Card from "../components/Card";
 import { GiAchievement } from "react-icons/gi";
 import { FaLeaf } from "react-icons/fa";
 import { MdPrivacyTip } from "react-icons/md";
