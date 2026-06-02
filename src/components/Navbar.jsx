@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react"
-export default function Navbar () {
+export default function Navbar() {
     const [isSticky, setIsStiky] = useState(false)
+    const [activeSection, setActiveSection] = useState("home");
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsStiky(window.scrollY > 450)
+            setIsStiky(window.scrollY > 480)
         }
 
         window.addEventListener('scroll', handleScroll);
@@ -12,20 +13,47 @@ export default function Navbar () {
         return () => {
             window.removeEventListener('scroll', handleScroll)
         }
-    },[])
+    }, [])
+
+    useEffect(() => {
+        const sections = document.querySelectorAll("section");
+        console.log(sections);
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        setActiveSection(entry.target.id);
+                    }
+                });
+            },
+            {
+                threshold: 0.2,
+            }
+        );
+
+        sections.forEach((section) => observer.observe(section));
+
+        return () => observer.disconnect();
+    }, []);
     return (
-        <nav className={`  border border-white/20 rounded-full p-2 m-auto md:w-[45%] w-full sticky top-10 inset-x-0 z-50 ${isSticky ? "bg-white/20 backdrop-blur-xl " : "bg-gray-300"}`} data-aos="flip-up" data-aos-duration="600">
+        <nav className={`  border border-white/20 rounded-full p-2 m-auto md:w-[45%] w-full sticky top-10 inset-x-0 z-50 duration-500 ${isSticky ? "bg-white/20 backdrop-blur-xl " : "bg-gray-300"}`} data-aos="flip-up" data-aos-duration="600">
             <ul className="flex justify-evenly gap-5 font-body items-center transition-all duration-300 md:text-xl">
                 <li className="w-full">
-                    <a href="#home" className="bg-primary block text-center py-3 px-4 rounded-full text-white font-bold w-full">
+                    <a href="#home" className={`block text-center rounded-full p-3 duration-300 ${activeSection === "home" ? "bg-primary text-white font-bold" : "text-primary hover:font-bold hover:bg-white/70"}`}>
                         Home
+
                     </a>
                 </li>
                 <li className="w-full">
-                    <a href="#layanan" className="text-primary block text-center hover:bg-white/70 hover:rounded-full hover:p-3 hover:font-bold duration-300 ">Layanan</a>
+                    <a href="#layanan" className={`block text-center rounded-full p-3 duration-300 ${activeSection === "layanan" ? "bg-primary text-white font-bold" : "text-primary hover:font-bold hover:bg-white/70"}`}>
+                        Layanan
+                    </a>
                 </li>
                 <li className="w-full">
-                    <a href="#kontak" className="text-primary block text-center hover:bg-white/70 hover:rounded-full hover:p-3 hover:font-bold duration-300">Kontak</a>
+                    <a href="#kontak" className={`block text-center rounded-full p-3 duration-300 ${activeSection === "kontak" ? "bg-primary text-white font-bold" : "text-primary hover:font-bold hover:bg-white/70"}`}>
+                        Kontak
+                    </a>
                 </li>
 
             </ul>
