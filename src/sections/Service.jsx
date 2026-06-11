@@ -13,7 +13,7 @@ import shiatsu from '/shiatsu.jpg'
 export default function Service() {
     const dataCard = [
         {
-            title: "Traditional Massage",
+            title: "Pijat Tradisional (Traditional Massage)",
             description: "Pijatan relaksasi menggunakan teknik tradisional dan minyak esensial untuk membantu meredakan stres, mengurangi ketegangan otot, serta memberikan rasa nyaman pada tubuh.",
             image: traditional
         },
@@ -23,17 +23,17 @@ export default function Service() {
             image: layanan1
         },
         {
-            title: "Face Acupressure",
+            title: "Totok Wajah (Face Acupressure)",
             description: "Perawatan wajah dengan teknik penekanan pada titik-titik tertentu untuk membantu merilekskan otot wajah, meningkatkan sirkulasi darah, dan membuat kulit tampak lebih segar.",
             image: layanan3
         },
         {
-            title: "Scrape",
+            title: "Terapi Kerokan (Scraping)",
             description: "Terapi kerokan modern menggunakan alat khusus untuk membantu meredakan pegal-pegal, meningkatkan aliran darah, serta membantu tubuh merasa lebih ringan dan rileks.",
             image: scrape
         },
         {
-            title: "Bruise",
+            title: "Pijat Cedera & Memar",
             description: "Terapi pemulihan yang berfokus pada area memar atau ketegangan otot untuk membantu mempercepat proses pemulihan dan mengurangi rasa tidak nyaman pada tubuh.",
             image: bruise
         },
@@ -70,7 +70,7 @@ export default function Service() {
     return (
         <section id="layanan" className="my-28">
             <div data-aos="fade-up">
-                <p className="text-4xl font-display font-bold text-center text-primary">Layanan Kami</p>
+                <h2 className="text-4xl font-display font-bold text-center text-primary">Layanan Kami</p>
                 <p className="text-center font-body mt-5 text-body md:text-xl md:w-[80%] m-auto">Pilih dari rangkaian perawatan holistik kami yang dirancang khusus untuk memenuhi kebutuhan relaksasi dan peremajaan tubuh Anda.</p>
             </div>
             <div className="md:my-20 my-10 flex flex-wrap items-center justify-center gap-10 ">
@@ -84,9 +84,9 @@ export default function Service() {
                 data-aos="zoom-in"
             >
                 <div className="text-center text-white">
-                    <p className="md:text-4xl text-2xl font-bold font-display">
+                    <h2 className="md:text-4xl text-2xl font-bold font-display">
                         Mengapa Memilih Kami?
-                    </p>
+                    </h2>
 
                     <p className="font-body mt-4 md:w-[70%] mx-auto text-white/90">
                         Dedikasi kami adalah memberikan pengalaman spa premium yang
