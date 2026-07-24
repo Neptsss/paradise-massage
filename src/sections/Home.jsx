@@ -1,4 +1,4 @@
-import homeImage from '/home_img.jpg';
+import homeImage from '../assets/images/home_img.webp';
 export default function Home() {
     return (
         <section id="home" className="my-28" data-aos="fade-up" data-aos-duration="1000">

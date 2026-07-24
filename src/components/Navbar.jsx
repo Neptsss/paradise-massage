@@ -17,7 +17,6 @@ export default function Navbar() {
 
     useEffect(() => {
         const sections = document.querySelectorAll("section");
-        console.log(sections);
 
         const observer = new IntersectionObserver(
             (entries) => {

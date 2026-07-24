@@ -1,10 +1,10 @@
 import useWindowWidth from "../hooks/useWindowWidht";
 import HeroImage from "./HeroImage";
-import heroImage1 from '/hero1.jpg'
-import heroImage2 from '/hero2.jpg'
-import heroImage3 from '/hero3.jpg'
-import heroImage4 from '/hero4.jpg'
-import heroImage5 from '/hero5.jpg'
+import heroImage1 from '../assets/images/hero1.webp'
+import heroImage2 from '../assets/images/hero2.webp'
+import heroImage3 from '../assets/images/hero3.webp'
+import heroImage4 from '../assets/images/hero4.webp'
+import heroImage5 from '../assets/images/hero5.webp'
 
 export default function Hero() {
     const windowWidth = useWindowWidth();
@@ -48,7 +48,7 @@ export default function Hero() {
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none" data-aos="fade-up" data-aos-duration="1500">
                 <div className="bg-[#D9D9D9]/90 rounded-xl shadow-md text-center flex flex-col items-center justify-center gap-5 md:w-[60%] w-full m-auto md:px-6 md:py-10 px-3 py-5">
                     <p className="font-body uppercase text-secondary md:text-xl ">welcome to serenity</p>
-                    <h1 className="font-display md:text-5xl text-2xl font-bold text-primary uppercase w-[86%] ">paradise massage & treatment</p>
+                    <h1 className="font-display md:text-5xl text-2xl font-bold text-primary uppercase w-[86%] ">paradise massage & treatment</h1>
                     <p className="md:text-xl text-body ">Sentuhan penyembuhan yang memebawa ketenangan jiwa dan kesegaran raga dalam balutan kemewahan minimalis</p>
                 </div>
             </div>

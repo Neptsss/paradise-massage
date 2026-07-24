@@ -2,13 +2,13 @@ import Card from "../components/Card";
 import { GiAchievement } from "react-icons/gi";
 import { FaLeaf } from "react-icons/fa";
 import { MdPrivacyTip } from "react-icons/md";
-import layanan1 from '/layanan1.jpg'
-import traditional from '/traditional_message.jpg'
-import layanan3 from '/layanan3.jpg'
-import scrape from '/scrape.jpg'
-import accupunture from '/acupuncture.jpg'
-import bruise from '/bruise.jpg'
-import shiatsu from '/shiatsu.jpg'
+import layanan1 from '../assets/images/layanan1.webp'
+import traditional from '../assets/images/traditional_message.webp'
+import layanan3 from '../assets/images/layanan3.webp'
+import scrape from '../assets/images/scrape.webp'
+import accupunture from '../assets/images/acupuncture.webp'
+import bruise from '../assets/images/bruise.webp'
+import shiatsu from '../assets/images/shiatsu.webp'
 
 export default function Service() {
     const dataCard = [
@@ -70,7 +70,7 @@ export default function Service() {
     return (
         <section id="layanan" className="my-28">
             <div data-aos="fade-up">
-                <h2 className="text-4xl font-display font-bold text-center text-primary">Layanan Kami</p>
+                <h2 className="text-4xl font-display font-bold text-center text-primary">Layanan Kami</h2>
                 <p className="text-center font-body mt-5 text-body md:text-xl md:w-[80%] m-auto">Pilih dari rangkaian perawatan holistik kami yang dirancang khusus untuk memenuhi kebutuhan relaksasi dan peremajaan tubuh Anda.</p>
             </div>
             <div className="md:my-20 my-10 flex flex-wrap items-center justify-center gap-10 ">
