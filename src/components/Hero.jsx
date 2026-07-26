@@ -17,23 +17,28 @@ export default function Hero() {
     const heroImage = [
         {
             index: 1,
-            image: heroImage1
+            image: heroImage1,
+            desc:'Terapis profesional melakukan pijat punggung tradisional untuk meredakan pegal di Yogyakarta'
         },
         {
             index: 2,
-            image: heroImage2
+            image: heroImage2,
+            desc:'Layanan pijat refleksi tangan yang menenangkan untuk pelanggan di area Yogyakarta'
         },
         {
             index: 3,
-            image: heroImage3
+            image: heroImage3,
+            desc:'Treatment pijat relaksasi kepala dan wajah untuk menghilangkan stres dan pusing'
         },
         {
             index: 4,
-            image: heroImage4
+            image: heroImage4,
+            desc:'Pijat kebugaran dan relaksasi otot kaki oleh terapis spa berpengalaman'
         },
         {
             index: 5,
-            image: heroImage5
+            image: heroImage5,
+            desc:'Pijat panggilan shiatsu dan refleksi kaki dengan minyak esensial terbaik di Jogja'
         },
     ]
 

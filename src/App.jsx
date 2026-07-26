@@ -18,8 +18,8 @@ export default function App() {
   return (
     <div className='p-10'>
     <div className="flex items-center gap-5">
-      <img src={logo} className="w-10" />
-      <p className="uppercase font-bold text-secondary m:text-5xl font-display text-3xl">paradise<span className="text-secondary">.</span></p>
+      <img src={logo} className="w-10" alt='logo paradise massage' />
+      <h1 className="uppercase font-bold text-secondary m:text-5xl font-display text-3xl">paradise<span className="text-secondary">.</span></h1>
     </div>
       <Hero />
       <Navbar />
