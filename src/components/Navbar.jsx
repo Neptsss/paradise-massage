@@ -27,7 +27,7 @@ export default function Navbar() {
                 });
             },
             {
-                threshold: 0.2,
+                rootMargin: "-40% 0px -50% 0px",
             }
         );
 
@@ -41,7 +41,6 @@ export default function Navbar() {
                 <li className="w-full">
                     <a href="#home" className={`block text-center rounded-full p-3 duration-300 ${activeSection === "home" ? "bg-primary text-white font-bold" : "text-primary hover:font-bold hover:bg-white/70"}`}>
                         Home
-
                     </a>
                 </li>
                 <li className="w-full">
@@ -54,6 +53,7 @@ export default function Navbar() {
                         Kontak
                     </a>
                 </li>
+               
 
             </ul>
         </nav>

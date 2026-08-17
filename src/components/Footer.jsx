@@ -25,7 +25,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="h-72 rounded-xl">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7249128236986!2d110.3691951!3d-7.8189148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59005364a5b9%3A0x7b2e1db1d5234beb!2sParadise%20Massage!5e0!3m2!1sid!2sid!4v1784875186309!5m2!1sid!2sid" loading="lazy" className="w-full h-full rounded-xl md:my-0 my-10"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7249128236986!2d110.3691951!3d-7.8189148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59005364a5b9%3A0x7b2e1db1d5234beb!2sParadise%20Massage!5e0!3m2!1sid!2sid!4v1784875186309!5m2!1sid!2sid" loading="lazy" className="w-full h-full rounded-xl md:my-0 my-10" title="Lokasi Paradise Massage & Treatment di Yogyakarta"></iframe>
 
                 </div>
             </section>

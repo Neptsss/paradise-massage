@@ -1,72 +1,9 @@
 import Card from "../components/Card";
-import { GiAchievement } from "react-icons/gi";
-import { FaLeaf } from "react-icons/fa";
-import { MdPrivacyTip } from "react-icons/md";
-import layanan1 from '../assets/images/layanan1.webp'
-import traditional from '../assets/images/traditional_message.webp'
-import layanan3 from '../assets/images/layanan3.webp'
-import scrape from '../assets/images/scrape.webp'
-import accupunture from '../assets/images/acupuncture.webp'
-import bruise from '../assets/images/bruise.webp'
-import shiatsu from '../assets/images/shiatsu.webp'
 
+import {dataLayanan as dataCard} from '../data/layanan'
+import { dataUnggulan as serviceItem } from "../data/unggulan";
 export default function Service() {
-    const dataCard = [
-        {
-            title: "Pijat Tradisional (Traditional Massage)",
-            description: "Pijatan relaksasi menggunakan teknik tradisional dan minyak esensial untuk membantu meredakan stres, mengurangi ketegangan otot, serta memberikan rasa nyaman pada tubuh.",
-            image: traditional
-        },
-        {
-            title: "Refleksi",
-            description: "Terapi pijat pada titik-titik refleksi kaki yang dipercaya dapat membantu melancarkan peredaran darah, mengurangi kelelahan, dan meningkatkan keseimbangan tubuh.",
-            image: layanan1
-        },
-        {
-            title: "Totok Wajah (Face Acupressure)",
-            description: "Perawatan wajah dengan teknik penekanan pada titik-titik tertentu untuk membantu merilekskan otot wajah, meningkatkan sirkulasi darah, dan membuat kulit tampak lebih segar.",
-            image: layanan3
-        },
-        {
-            title: "Terapi Kerokan (Scraping)",
-            description: "Terapi kerokan modern menggunakan alat khusus untuk membantu meredakan pegal-pegal, meningkatkan aliran darah, serta membantu tubuh merasa lebih ringan dan rileks.",
-            image: scrape
-        },
-        {
-            title: "Pijat Cedera & Memar",
-            description: "Terapi pemulihan yang berfokus pada area memar atau ketegangan otot untuk membantu mempercepat proses pemulihan dan mengurangi rasa tidak nyaman pada tubuh.",
-            image: bruise
-        },
-        {
-            title: "Acupuncture",
-            description: "Metode pengobatan tradisional dengan stimulasi titik-titik tertentu pada tubuh untuk membantu meredakan nyeri, meningkatkan energi, dan mendukung kesehatan secara menyeluruh.",
-            image: accupunture
-        },
-        {
-            title: "Shiatsu",
-            description: "Teknik pijat asal Jepang yang menggunakan tekanan jari pada titik-titik energi tubuh untuk membantu mengurangi stres, memperbaiki postur, dan meningkatkan relaksasi.",
-            image: shiatsu
-        }
-    ];
-    const serviceItem = [
-        {
-            title: "Terapis Ahli & Tersertifikasi",
-            icon: GiAchievement,
-            description: "Tim kami telah melewati pelatihan ketat dan memiliki jam terbang tinggi."
-        },
-        {
-            title: "Bahan 100% Organik",
-            icon: FaLeaf,
-            description: "Kami hanya menggunakan minyak dan produk perawatan berbahan alami tanpa zat kimia berbahaya."
-        },
-        {
-            title: "Privasi Terjaga",
-            icon: MdPrivacyTip,
-            description: "Kamar perawatan pribadi yang kedap suara untuk relaksasi total tanpa gangguan."
-        },
-
-
-    ]
+ 
     return (
         <section id="layanan" className="my-28">
             <div data-aos="fade-up">

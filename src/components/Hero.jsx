@@ -46,9 +46,8 @@ export default function Hero() {
         <div className="relative">
             <div className="flex items-center justify-center gap-10 my-10">
                 {heroImage.slice(0, dataHero).map((item, index) => (
-                    <HeroImage image={item.image} key={index} index={item.index} />
+                    <HeroImage image={item.image} key={index} index={item.index} desc={item.desc} />
                 ))}
-
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none" data-aos="fade-up" data-aos-duration="1500">
                 <div className="bg-[#D9D9D9]/90 rounded-xl shadow-md text-center flex flex-col items-center justify-center gap-5 md:w-[60%] w-full m-auto md:px-6 md:py-10 px-3 py-5">

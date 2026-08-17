@@ -1,14 +1,9 @@
 import { useEffect } from 'react';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import Home from './sections/Home';
-import Service from './sections/Service';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import logo from './assets/images/logo.webp';
-import Review from './sections/Review';
-import schema from './seo/schema';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import LayananDetail from './pages/LayananDetail';
 
 export default function App() {
   useEffect(() => {
@@ -18,20 +13,15 @@ export default function App() {
     });
   }, [])
   return (
-    <>
-      <div className='max-w-7xl mx-auto p-5'>
-        <div className="flex items-center gap-5">
-          <img src={logo} className="w-10" alt='logo paradise massage' />
-          <h1 className="uppercase font-bold text-secondary m:text-5xl font-display text-3xl">paradise<span className="text-secondary">.</span></h1>
-        </div>
-        <Hero />
-        <Navbar />
-        <Home />
-        <Service />
-        <Review />
-        <Footer />
+    <BrowserRouter>
+      <div className="max-w-7xl mx-auto p-5">
+
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/layanan/:layananName" element={<LayananDetail />} />
+        </Routes>
+
       </div>
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html:JSON.stringify(schema) }}/>
-    </>
+    </BrowserRouter>
   )
 }
