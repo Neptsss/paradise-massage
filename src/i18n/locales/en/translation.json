@@ -1,0 +1,184 @@
+{
+    "navbar": {
+        "home": "Home",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "section": {
+        "hero": {
+            "sub-title": "Healing touches that bring peace to the soul and rejuvenation to the body, wrapped in minimalist luxury."
+        },
+        "home": {
+            "title": "An Oasis of Calm in the Heart of the City",
+            "sub-title": "Our Philosophy",
+            "description1": "At Paradise Massage, we believe that true peace begins with a balance between body and mind. As an oasis of tranquility, our philosophy is centered around the art of traditional healing, combined with elegant modern standards of comfort.",
+            "description2": "Every detail of our space, from the soothing aroma of aromatherapy and gentle music to the expert touch of our therapists, is thoughtfully designed to restore your energy and rejuvenate your spirit."
+        },
+        "services": {
+            "title": "Our Services",
+            "sub-title": "Choose from our range of holistic treatments, specially designed to meet your relaxation and body rejuvenation needs.",
+            "cta": {
+                "title": "Interested in Our Services ?",
+                "description": "Enjoy a relaxing experience with Paradise Massage & Treatment. Contact us to make a reservation.",
+                "text-button": "Contact Us"
+            }
+        },
+        "service-detail": {
+            "manfaat": "Benefits", 
+            "kembali" : "Home"
+        },
+        "reason": {
+            "title": "Why Choose Us?",
+            "sub-title": "Our dedication is to provide a premium spa experience that soothes the body, mind, and soul through exceptional services and a comfortable atmosphere.",
+            "superiority": {
+                "0": {
+                    "title": "Expert & Certified Therapists",
+                    "description": "Our team has undergone rigorous training and has extensive hands-on experience."
+                },
+                "1": {
+                    "title": "100% Organic Products",
+                    "description": "We only use natural oils and treatment products made from organic ingredients, without harmful chemicals."
+                },
+                "2": {
+                    "title": "Your Privacy Matters",
+                    "description": "Private, soundproof treatment rooms provide a peaceful and uninterrupted environment for complete relaxation."
+                }
+            }
+        },
+        "review": {
+            "title": "What Our Customers Say",
+            "sub-title": "Hear about our customers' experiences after enjoying our professional massage and treatment services."
+        },
+        "footer": {
+            "description": "Visit us directly or contact us via WhatsApp to reserve your preferred time slot today!"
+        }
+    },
+    "services": {
+        "pijat-tradisional": {
+            "title": "Traditional Massage",
+            "description": "Traditional Massage at Paradise Massage offers a relaxing experience designed to help the body feel more relaxed and comfortable after various daily activities. The massage techniques use gentle strokes and adjusted pressure on several areas of the body, providing a soothing sensation and helping to release tension after daily activities. This treatment is suitable for those who want to take some time to rest and enjoy a calming massage experience.",
+            "benefits": {
+                "0": {
+                    "title": "Helps Relieve Tension",
+                    "description": "The targeted massage techniques help provide comfort to areas of the body that feel tense after daily activities."
+                },
+                "1": {
+                    "title": "Promotes a More Relaxed Feeling",
+                    "description": "Gentle strokes and adjusted pressure create a soothing massage experience, helping the body feel more relaxed and comfortable."
+                },
+                "2": {
+                    "title": "Helps Reduce Feelings of Fatigue",
+                    "description": "This treatment can be a suitable choice for taking a short break after a busy day and helping the body feel refreshed after the treatment."
+                }
+            }
+        },
+        "refleksi": {
+            "title": "Reflexology",
+            "description": "Reflexology at Paradise Massage uses pressure techniques on specific points on the soles of the feet to provide a comfortable and relaxing experience. This treatment is suitable for those who spend a lot of time standing, walking, or using their feet throughout the day. With adjusted pressure, the feet can feel lighter while giving the body an opportunity to rest more comfortably.",
+            "benefits": {
+                "0": {
+                    "title": "Helps the Feet Feel Lighter",
+                    "description": "Pressure applied to the soles of the feet provides a comfortable sensation and can help tired feet feel lighter after daily activities."
+                },
+                "1": {
+                    "title": "Provides a Relaxing Experience",
+                    "description": "A combination of pressure and massage on the feet creates a soothing experience, allowing you to enjoy your time of rest more comfortably."
+                },
+                "2": {
+                    "title": "Helps Reduce Feelings of Fatigue",
+                    "description": "Suitable for those with busy daily routines who want to give their feet some dedicated time to rest after being active throughout the day."
+                }
+            }
+        },
+        "totok-wajah": {
+            "title": "Face Acupressure",
+            "description": "Face Acupressure at Paradise Massage is a facial treatment that uses gentle pressure techniques on specific points around the face. This treatment is designed to provide a relaxing sensation for the face after daily activities. Slow and gentle movements and pressure create a comfortable treatment experience, helping the face feel more relaxed and refreshed.",
+            "benefits": {
+                "0": {
+                    "title": "Helps Relax the Facial Muscles",
+                    "description": "Gentle pressure around the face provides a comfortable sensation and helps reduce feelings of tension that may occur after daily activities."
+                },
+                "1": {
+                    "title": "Provides a Refreshed Feeling",
+                    "description": "Facial treatment using consistent movements and pressure creates a refreshing experience, helping the face feel more comfortable after the treatment."
+                },
+                "2": {
+                    "title": "Helps Reduce Tension",
+                    "description": "Face acupressure focuses on several points on the face to help create a relaxed and comfortable feeling throughout the treatment."
+                }
+            }
+        },
+        "pijat-pelepas-lelah": {
+            "title": "Scraping Massage",
+            "description": "Scraping Massage uses a traditional scraping technique, known as kerokan, performed in a controlled manner to provide a relaxing experience after daily activities. The treatment is performed on specific areas of the body using adjusted movements to create a warm and comfortable sensation. It is suitable for those who want to enjoy a traditional treatment as part of their time for rest and relaxation.",
+            "benefits": {
+                "0": {
+                    "title": "Provides a Warm Sensation",
+                    "description": "The scraping technique creates a warm sensation in the treated areas, helping the body feel more comfortable and relaxed."
+                },
+                "1": {
+                    "title": "Helps the Body Feel More Relaxed",
+                    "description": "Controlled treatment movements provide a relaxing experience that is suitable for enjoying after daily activities."
+                },
+                "2": {
+                    "title": "Helps Reduce Feelings of Fatigue",
+                    "description": "This treatment can be a suitable choice for taking some time to rest when the body feels tired after a busy day."
+                }
+            }
+        },
+        "pijat-kebugaran": {
+            "title": "Deep Tissue Massage",
+            "description": "Deep Tissue Massage uses massage techniques with deeper pressure on specific muscle areas. This treatment is intended to provide a relaxing experience after physical activity or a busy daily routine. The massage pressure can be adjusted according to your comfort, helping the body feel more relaxed and comfortable after the treatment.",
+            "benefits": {
+                "0": {
+                    "title": "Helps Relax the Muscles",
+                    "description": "Deeper massage pressure focuses on specific muscle areas to help create a relaxed and comfortable sensation."
+                },
+                "1": {
+                    "title": "Helps Reduce Tension",
+                    "description": "Adjusted massage pressure can provide comfort to areas of the body that feel tense after physical activity or daily routines."
+                },
+                "2": {
+                    "title": "Helps the Body Feel More Comfortable",
+                    "description": "This treatment gives the body an opportunity to rest and enjoy a deeper massage experience according to your comfort level."
+                }
+            }
+        },
+        "pijat-titik-relaksasi": {
+            "title": "Relaxation Point Massage",
+            "description": "Relaxation Point Massage uses pressure techniques on specific points of the body to provide a comfortable and relaxing experience. The pressure is applied in a targeted manner and can be adjusted according to your needs and comfort throughout the treatment. This treatment is suitable for those who want to enjoy some time to rest while giving extra attention to areas of the body that feel tense after daily activities.",
+            "benefits": {
+                "0": {
+                    "title": "Provides a Relaxing Experience",
+                    "description": "Pressure applied to specific points creates a soothing massage experience, allowing the body to feel more relaxed during and after the treatment."
+                },
+                "1": {
+                    "title": "Helps Reduce Tension",
+                    "description": "Targeted pressure techniques provide comfort to several areas of the body that feel tense after daily activities."
+                },
+                "2": {
+                    "title": "Helps the Body Feel More Comfortable",
+                    "description": "This treatment provides an opportunity to take a short break from your routine while enjoying a massage adjusted to your comfort."
+                }
+            }
+        },
+        "shiatsu": {
+            "title": "Shiatsu",
+            "description": "Shiatsu is a traditional Japanese massage technique that uses finger and palm pressure on specific points of the body. The pressure is applied consistently and adjusted according to your comfort to create a soothing massage experience. This treatment is suitable for those who want to enjoy a massage using traditional Japanese techniques while giving their body time to rest and relax.",
+            "benefits": {
+                "0": {
+                    "title": "Helps Relax the Muscles",
+                    "description": "Pressure applied with the fingers and palms provides a comfortable massage sensation to specific areas of the body, helping the body feel more relaxed."
+                },
+                "1": {
+                    "title": "Helps Reduce Tension",
+                    "description": "Regular pressure techniques focus on areas of the body that feel tense after daily activities."
+                },
+                "2": {
+                    "title": "Provides a Relaxed and Comfortable Feeling",
+                    "description": "A series of traditional Shiatsu techniques creates a calm and comfortable massage experience to accompany your time of rest."
+                }
+            }
+        }
+    }
+}

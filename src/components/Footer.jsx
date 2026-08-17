@@ -1,8 +1,10 @@
 import { CiLocationOn } from "react-icons/ci";
 import { CiPhone } from "react-icons/ci";
 import logo from '../assets/images/logo.webp';
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+    const {t} = useTranslation()
     return (
         <>
             <section className="border-t-8 border-primary shadow-md p-6 md:flex items-center justify-between mt-20 mb-10 rounded-xl" id="kontak" data-aos="fade-up">
@@ -11,7 +13,7 @@ export default function Footer() {
                         <img src={logo} className="w-12" alt="logo paradise massage" />
                         <p className="uppercase text-primary font-display text-4xl font-semibold">paradise<span className="text-secondary">.</span></p>
                     </div>
-                    <p className="font-body text-body md:text-xl mt-3">Kunjungi kami langsung atau hubungi kami via WhatsApp untuk reservasi slot waktu favorit Anda sekarang!</p>
+                    <p className="font-body text-body md:text-xl mt-3">{t(`section.footer.description`)}</p>
                     <div className="flex flex-col gap-5 mt-10 font-body">
                         <div className="flex item-center gap-2 ">
                             <CiLocationOn className="text-3xl  text-primary" />

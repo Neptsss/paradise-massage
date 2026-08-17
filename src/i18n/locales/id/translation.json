@@ -1,0 +1,184 @@
+{
+    "navbar": {
+        "home": "Beranda",
+        "services": "Layanan",
+        "contact": "Kontak"
+    },
+    "section" : {
+        "hero" : {
+            "sub-title" : "Sentuhan penyembuhan yang membawa ketenangan jiwa dan kesagaran raga dalam balutan kemewahan minimalis"
+        },
+        "home" : {
+            "title" : "Oase Ketenangan di Tengah Hiruk-Pikuk Kota",
+            "sub-title" : "Filosofi kami",
+            "description1" :"Di Paradise Massage, kami percaya bahwa kedamaian sejati bermula dari keseimbangan antara tubuh dan pikiran. Berdiri sebagai oase ketenangan, filosofi kami berpusat pada seni penyembuhan tradisional yang dipadukan dengan standar kenyamanan modern yang elegan.",
+            "description2" : "Setiap detail di tempat kami, mulai dari aroma terapi yang menenangkan, alunan musik yang lembut, hingga sentuhan ahli dari para terapis kami, dirancang secara khusus untuk memulihkan energi jiwa Anda."
+        }, 
+        "services": {
+            "title" : "Layanan Kami", 
+            "sub-title" : "Pilih dari rangkaian perawatan holistik kami yang dirancang khusus untuk memenuhi kebutuhan relaksasi dan peremajaan tubuh Anda.", 
+            "cta": {
+                "title": "Tertarik Dengan Layanan Kami ?",
+                "description": "Nikmati waktu relaksasi bersama Paradise Massage & Treatment. Hubungi kami untuk melakukan reservasi.",
+                "text-button": "Hubungi Kami"
+            }
+        }, 
+        "service-detail" : {
+            "manfaat" : "Manfaat",
+            "kembali": "Beranda"
+        },
+        "reason" : {
+            "title" : "Mengapa Memilih Kami?", 
+            "sub-title" : "Dedikasi kami adalah memberikan pengalaman spa premium yang menenangkan tubuh, pikiran, dan jiwa melalui layanan terbaik serta suasana yang nyaman.", 
+            "superiority" : {
+                "0" : {
+                    "title" : "Terapis Ahli & Tersertifikasi", 
+                    "description" : "Tim kami telah melewati pelatihan ketat dan memiliki jam terbang tinggi."
+                },
+                "1" : {
+                    "title" : "Bahan 100% Organik", 
+                    "description" : "Kami hanya menggunakan minyak dan produk perawatan berbahan alami tanpa zat kimia berbahaya."
+                },
+                "2" : {
+                    "title" : "Privasi Terjaga", 
+                    "description" : "Kamar perawatan pribadi yang kedap suara untuk relaksasi total tanpa gangguan."
+                }
+            }
+        }, 
+        "review" : {
+            "title" : "Apa Kata Mereka", 
+            "sub-title" : "Simak pengalaman pelanggan setelah menikmati layanan massage dan treatment profesional kami."
+        }, 
+        "footer" : {
+            "description" : "Kunjungi kami langsung atau hubungi kami via WhatsApp untuk reservasi slot waktu favorit Anda sekarang!"
+        }
+    },
+    "services": {
+        "pijat-tradisional": {
+            "title": "Pijat Tradisional",
+            "description": "Pijat Tradisional di Paradise Massage menawarkan pengalaman relaksasi yang dirancang untuk membantu tubuh terasa lebih rileks dan nyaman setelah menjalani berbagai aktivitas. Teknik pijatan dilakukan dengan usapan dan tekanan yang disesuaikan pada beberapa area tubuh, sehingga memberikan sensasi nyaman dan membantu melepaskan ketegangan yang terasa setelah beraktivitas. Perawatan ini cocok bagi Anda yang ingin meluangkan waktu untuk beristirahat dan menikmati suasana pijat yang menenangkan.",
+            "benefits": {
+                "0": {
+                    "title": "Membantu Meredakan Ketegangan",
+                    "description": "Teknik pijatan yang dilakukan secara terarah membantu memberikan rasa nyaman pada area tubuh yang terasa tegang setelah menjalani aktivitas sehari-hari."
+                },
+                "1": {
+                    "title": "Tubuh Terasa Lebih Rileks",
+                    "description": "Usapan dan tekanan yang disesuaikan membantu menciptakan pengalaman pijat yang menenangkan sehingga tubuh terasa lebih santai dan nyaman."
+                },
+                "2": {
+                    "title": "Membantu Mengurangi Rasa Lelah",
+                    "description": "Perawatan ini dapat menjadi pilihan untuk beristirahat sejenak setelah aktivitas padat dan membantu tubuh terasa lebih segar ketika selesai melakukan perawatan."
+                }
+            }
+        },
+        "refleksi": {
+            "title": "Refleksi",
+            "description": "Refleksi di Paradise Massage menggunakan teknik tekanan pada titik-titik tertentu di area telapak kaki untuk memberikan pengalaman relaksasi yang nyaman. Perawatan ini cocok bagi Anda yang banyak melakukan aktivitas berdiri, berjalan, atau menggunakan kaki sepanjang hari. Dengan tekanan yang disesuaikan, kaki terasa lebih ringan dan tubuh mendapatkan kesempatan untuk beristirahat dengan lebih nyaman.",
+            "benefits": {
+                "0": {
+                    "title": "Kaki Terasa Lebih Ringan",
+                    "description": "Tekanan pada area telapak kaki membantu memberikan sensasi nyaman sehingga kaki yang terasa lelah setelah beraktivitas dapat terasa lebih ringan."
+                },
+                "1": {
+                    "title": "Memberikan Efek Relaksasi",
+                    "description": "Rangkaian tekanan dan pijatan pada kaki memberikan pengalaman yang menenangkan dan membantu Anda menikmati waktu istirahat dengan lebih nyaman."
+                },
+                "2": {
+                    "title": "Membantu Mengurangi Rasa Lelah",
+                    "description": "Cocok untuk Anda yang menjalani aktivitas padat sehari-hari dan ingin memberikan waktu istirahat khusus bagi kaki setelah banyak bergerak."
+                }
+            }
+        },
+        "totok-wajah": {
+            "title": "Totok Wajah",
+            "description": "Totok Wajah di Paradise Massage merupakan perawatan wajah dengan teknik tekanan lembut pada titik-titik tertentu di area wajah. Perawatan ini dirancang untuk memberikan sensasi relaksasi pada wajah setelah menjalani aktivitas sehari-hari. Gerakan dan tekanan yang dilakukan secara perlahan membantu menciptakan pengalaman perawatan yang nyaman sehingga wajah terasa lebih rileks dan segar.",
+            "benefits": {
+                "0": {
+                    "title": "Membantu Merelaksasikan Wajah",
+                    "description": "Tekanan lembut pada area wajah memberikan sensasi nyaman dan membantu mengurangi rasa tegang yang dapat muncul setelah menjalani aktivitas sehari-hari."
+                },
+                "1": {
+                    "title": "Memberikan Sensasi Lebih Segar",
+                    "description": "Perawatan wajah yang dilakukan dengan gerakan dan tekanan teratur memberikan pengalaman menyegarkan sehingga wajah terasa lebih nyaman setelah perawatan."
+                },
+                "2": {
+                    "title": "Membantu Mengurangi Ketegangan",
+                    "description": "Teknik totok wajah memberikan perhatian pada beberapa titik wajah untuk membantu menciptakan rasa rileks dan nyaman selama perawatan."
+                }
+            }
+        },
+        "pijat-pelepas-lelah": {
+            "title": "Pijat Pelepas Lelah (Kerokan)",
+            "description": "Pijat Pelepas Lelah menggunakan teknik tradisional scraping atau kerokan yang dilakukan secara terukur untuk memberikan pengalaman relaksasi setelah beraktivitas. Perawatan dilakukan pada area tubuh tertentu dengan gerakan yang disesuaikan agar memberikan sensasi hangat dan nyaman. Cocok bagi Anda yang ingin menikmati perawatan tradisional sebagai bagian dari waktu istirahat dan relaksasi.",
+            "benefits": {
+                "0": {
+                    "title": "Memberikan Sensasi Hangat",
+                    "description": "Teknik scraping memberikan sensasi hangat pada area tubuh yang mendapatkan perawatan sehingga tubuh terasa lebih nyaman dan rileks."
+                },
+                "1": {
+                    "title": "Membantu Tubuh Lebih Rileks",
+                    "description": "Gerakan perawatan yang dilakukan secara terukur memberikan pengalaman relaksasi yang cocok dinikmati setelah menjalani aktivitas sehari-hari."
+                },
+                "2": {
+                    "title": "Membantu Mengurangi Rasa Lelah",
+                    "description": "Perawatan ini dapat menjadi pilihan untuk meluangkan waktu beristirahat ketika tubuh terasa lelah setelah menjalani aktivitas yang cukup padat."
+                }
+            }
+        },
+        "pijat-kebugaran": {
+            "title": "Pijat Kebugaran Otot ",
+            "description": "Pijat Kebugaran Otot menggunakan teknik pijatan dengan tekanan yang lebih mendalam pada area otot tertentu. Perawatan ini ditujukan untuk memberikan pengalaman relaksasi setelah aktivitas fisik maupun rutinitas sehari-hari yang cukup padat. Tekanan pijatan dapat disesuaikan dengan kenyamanan sehingga tubuh terasa lebih rileks dan nyaman setelah perawatan.",
+            "benefits": {
+                "0": {
+                    "title": "Membantu Merelaksasikan Otot",
+                    "description": "Tekanan pijatan yang lebih mendalam memberikan perhatian pada area otot tertentu untuk membantu menciptakan sensasi rileks dan nyaman."
+                },
+                "1": {
+                    "title": "Membantu Mengurangi Ketegangan",
+                    "description": "Pijatan yang disesuaikan dapat membantu memberikan rasa nyaman pada area tubuh yang terasa tegang setelah aktivitas fisik maupun rutinitas sehari-hari."
+                },
+                "2": {
+                    "title": "Tubuh Terasa Lebih Nyaman",
+                    "description": "Perawatan ini memberikan kesempatan bagi tubuh untuk beristirahat dan menikmati pengalaman pijat yang lebih mendalam sesuai dengan tingkat kenyamanan."
+                }
+            }
+        },
+        "pijat-titik-relaksasi": {
+            "title": "Pijat Titik Relaksasi",
+            "description": "Pijat Titik Relaksasi menggunakan teknik tekanan pada titik-titik tertentu di tubuh untuk memberikan pengalaman relaksasi yang nyaman. Tekanan dilakukan secara terarah dan dapat disesuaikan dengan kebutuhan serta kenyamanan selama perawatan. Perawatan ini cocok bagi Anda yang ingin menikmati waktu istirahat sambil memberikan perhatian lebih pada area tubuh yang terasa tegang setelah beraktivitas.",
+            "benefits": {
+                "0": {
+                    "title": "Memberikan Efek Relaksasi",
+                    "description": "Tekanan pada titik-titik tertentu memberikan pengalaman pijat yang menenangkan sehingga tubuh dapat terasa lebih santai selama dan setelah perawatan."
+                },
+                "1": {
+                    "title": "Membantu Mengurangi Ketegangan",
+                    "description": "Teknik tekanan yang dilakukan secara terarah membantu memberikan rasa nyaman pada beberapa area tubuh yang terasa tegang setelah beraktivitas."
+                },
+                "2": {
+                    "title": "Membantu Tubuh Lebih Nyaman",
+                    "description": "Perawatan ini memberikan kesempatan untuk beristirahat sejenak dari rutinitas sambil menikmati pijatan yang disesuaikan dengan kenyamanan."
+                }
+            }
+        },
+        "shiatsu": {
+            "title": "Shiatsu",
+            "description": "Shiatsu merupakan teknik pijat khas Jepang yang menggunakan tekanan jari dan telapak tangan pada titik-titik tertentu di tubuh. Tekanan diberikan secara teratur dan disesuaikan dengan kenyamanan untuk menciptakan pengalaman pijat yang menenangkan. Perawatan ini cocok bagi Anda yang ingin menikmati pijatan dengan teknik khas Jepang sekaligus memberikan waktu bagi tubuh untuk beristirahat dan rileks.",
+            "benefits": {
+                "0": {
+                    "title": "Membantu Merelaksasikan Otot",
+                    "description": "Tekanan menggunakan jari dan telapak tangan memberikan sensasi pijatan yang nyaman pada area tubuh tertentu sehingga membantu tubuh terasa lebih rileks."
+                },
+                "1": {
+                    "title": "Membantu Mengurangi Ketegangan",
+                    "description": "Teknik tekanan yang dilakukan secara teratur memberikan perhatian pada area tubuh yang terasa tegang setelah menjalani aktivitas sehari-hari."
+                },
+                "2": {
+                    "title": "Memberikan Rasa Rileks dan Nyaman",
+                    "description": "Rangkaian teknik khas Shiatsu menciptakan pengalaman pijat yang tenang dan nyaman untuk menemani waktu istirahat Anda."
+                }
+            }
+        }
+    }
+}

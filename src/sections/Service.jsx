@@ -1,14 +1,15 @@
+import { useTranslation } from "react-i18next";
 import Card from "../components/Card";
 
 import {dataLayanan as dataCard} from '../data/layanan'
 import { dataUnggulan as serviceItem } from "../data/unggulan";
 export default function Service() {
- 
+ const {t} = useTranslation()
     return (
         <section id="layanan" className="my-28">
             <div data-aos="fade-up">
-                <h2 className="text-4xl font-display font-bold text-center text-primary">Layanan Kami</h2>
-                <p className="text-center font-body mt-5 text-body md:text-xl md:w-[80%] m-auto">Pilih dari rangkaian perawatan holistik kami yang dirancang khusus untuk memenuhi kebutuhan relaksasi dan peremajaan tubuh Anda.</p>
+                <h2 className="text-4xl font-display font-bold text-center text-primary">{t(`section.services.title`)}</h2>
+                <p className="text-center font-body mt-5 text-body md:text-xl md:w-[80%] m-auto">{t(`section.services.sub-title`)}</p>
             </div>
             <div className="md:my-20 my-10 flex flex-wrap items-center justify-center gap-10 ">
                 {dataCard.map((item, index) => (
@@ -22,13 +23,12 @@ export default function Service() {
             >
                 <div className="text-center text-white">
                     <h2 className="md:text-4xl text-2xl font-bold font-display">
-                        Mengapa Memilih Kami?
+                       {t(`section.reason.title`)}
                     </h2>
 
                     <p className="font-body mt-4 md:w-[70%] mx-auto text-white/90">
-                        Dedikasi kami adalah memberikan pengalaman spa premium yang
-                        menenangkan tubuh, pikiran, dan jiwa melalui layanan terbaik
-                        serta suasana yang nyaman.
+                        {t(`section.reason.sub-title`)}
+
                     </p>
                 </div>
 
@@ -41,11 +41,12 @@ export default function Service() {
                             <item.icon className="md:text-5xl text-3xl  mb-4 text-white" />
 
                             <h3 className="font-display text-xl font-bold mb-3">
-                                {item.title}
+                                {t(`section.reason.superiority.${index}.title`)}
                             </h3>
 
                             <p className="font-body text-white/80">
-                                {item.description}
+                                {t(`section.reason.superiority.${index}.description`)}
+
                             </p>
                         </div>
                     ))}

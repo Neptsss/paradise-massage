@@ -5,9 +5,11 @@ import heroImage2 from '../assets/images/hero2.webp'
 import heroImage3 from '../assets/images/hero3.webp'
 import heroImage4 from '../assets/images/hero4.webp'
 import heroImage5 from '../assets/images/hero5.webp'
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
     const windowWidth = useWindowWidth();
+    const {t} = useTranslation()
     let dataHero = 5;
     if (windowWidth < 900 && windowWidth >= 700) {
         dataHero = 3;
@@ -53,7 +55,7 @@ export default function Hero() {
                 <div className="bg-[#D9D9D9]/90 rounded-xl shadow-md text-center flex flex-col items-center justify-center gap-5 md:w-[60%] w-full m-auto md:px-6 md:py-10 px-3 py-5">
                     <p className="font-body uppercase text-secondary md:text-xl ">welcome to serenity</p>
                     <h1 className="font-display md:text-5xl text-2xl font-bold text-primary uppercase w-[86%] ">paradise massage & treatment</h1>
-                    <p className="md:text-xl text-body ">Sentuhan penyembuhan yang memebawa ketenangan jiwa dan kesegaran raga dalam balutan kemewahan minimalis</p>
+                    <p className="md:text-xl text-body ">{t(`section.hero.sub-title`)}</p>
                 </div>
             </div>
         </div>
